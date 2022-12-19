@@ -55,7 +55,7 @@ def get_fruityvice_data(this_fruit_choice):
 
 
 streamlit.header("View Our Fruit List - Add Your Favorites")
-snowflake related functions
+#snowflake related functions
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
          my_cur.execute("Select * from fruit_load_list")
