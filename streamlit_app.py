@@ -107,8 +107,8 @@ if streamlit.button('Add a Fruit to the List'):
     streamlit.text(back_from_function)
 
 
-import requests
-fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-add_my_fruit = streamlit.text_input('What fruit would you like to add?','Kiwi')
-streamlit.write('Thanks for adding ', add_my_fruit)
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
+# import requests
+# fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
+# add_my_fruit = streamlit.text_input('What fruit would you like to add?','Kiwi')
+# streamlit.write('Thanks for adding ', add_my_fruit)
+# my_cur.execute("insert into fruit_load_list values ('from streamlit')")
